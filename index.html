@@ -1,897 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eshika Rani Pall — Software Engineer</title>
+<meta name="description" content="Portfolio of Eshika Rani Pall — Computer Science undergraduate building full-stack web applications with ASP.NET Core MVC, C#, SQL Server, and responsive JavaScript front-ends.">
+<link rel="icon" href="images/favicon.png">
 
-    <title>Eshika Rani Pall | Software Developer Portfolio</title>
-
-    <meta name="description"
-        content="Official Developer Portfolio of Eshika Rani Pall. Computer Science undergraduate specializing in ASP.NET Core MVC, PHP, C#, SQL Server, MySQL and Full Stack Web Development.">
-
-    <meta name="keywords"
-        content="Eshika Rani Pall, Portfolio, Software Developer, ASP.NET Core MVC, PHP, MySQL, SQL Server, AIUB">
-
-    <meta name="author" content="Eshika Rani Pall">
-
-    <link rel="icon" href="images/favicon.png">
-
-    <!-- Google Fonts -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- Remix Icon -->
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <!-- CSS -->
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <link rel="stylesheet" href="css/animations.css">
-
-    <link rel="stylesheet" href="css/responsive.css">
-
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-    <!-- Loading Screen -->
-
-    <!-- <div id="loader">
-
-        <div class="loader-circle"></div>
-
-        <h2>Loading Portfolio...</h2>
-
-    </div> -->
-
-    <!-- Scroll Progress -->
-
-    <div id="progress-bar"></div>
-
-    <!-- Background -->
-
-    <div class="background-blur blur-one"></div>
-
-    <div class="background-blur blur-two"></div>
-
-    <div class="background-blur blur-three"></div>
-
-    <!-- Header -->
-
-    <header id="header">
-
-        <nav class="container navbar">
-
-            <a href="#" class="logo">
-
-                Eshika<span>.</span>
-
-            </a>
-
-            <ul class="nav-menu">
-
-                <li><a href="#home">Home</a></li>
-
-                <li><a href="#about">About</a></li>
-
-                <li><a href="#skills">Skills</a></li>
-
-                <li><a href="#education">Education</a></li>
-
-                <li><a href="#projects">Projects</a></li>
-
-                <li><a href="#contact">Contact</a></li>
-
-            </ul>
-
-            
-
-            <div class="nav-right">
-
-                <a href="#contact" class="btn-small">
-
-                    Hire Me
-
-                </a>
-
-                <div id="menu-btn">
-
-<i class="bx bx-menu"></i>
-                </div>
-
-            </div>
-
-        </nav>
-
-    </header>
-
-    <!-- ================= HERO ================= -->
-
-    <section class="hero" id="home">
-
-        <div class="container hero-container">
-
-            <div class="hero-left">
-
-                <span class="hero-tag">
-
-                    👋 Hello, I'm
-
-                </span>
-
-                <h1>
-
-                    Eshika <br>
-
-                    <span>Rani Pall</span>
-
-                </h1>
-
-                <h3>
-
-                    <span id="typing"></span>
-
-                </h3>
-
-                <p>
-
-                    Motivated Computer Science undergraduate passionate about building modern software using
-                    ASP.NET Core MVC, PHP, C#,HTML, CSS, SQL Server, MySQL and JavaScript.
-                    I enjoy transforming ideas into clean, scalable and user-friendly applications.
-
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#projects" class="primary-btn">
-
-                        View Projects
-
-                    </a>
-
-                    <a href="assets/Eshika_Rani_Pall.pdf" download class="secondary-btn">
-
-                        Download CV
-
-                    </a>
-
-                </div>
-
-                <div class="hero-social">
-
-                    <a href="https://github.com/EEEshika" target="_blank">
-
-<i class="bx bxl-github"></i>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/eshika-rani-pall-b3486b280/"
-                        target="_blank">
-
-<i class="bx bxl-linkedin-square"></i>
-                    </a>
-
-                    <a href="mailto:eshikarpall@gmail.com">
-
-<i class="bx bx-envelope"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="hero-right">
-
-                <div class="profile-card">
-
-                    <div class="circle"></div>
-
-                    <img src="images/profile.png"
-                        alt="Eshika Rani Pall">
-
-                </div>
-
-            </div>
-
+<header id="header">
+  <div class="wrap navbar">
+    <a href="#top" class="brand">
+      <span class="brand-mark">ER</span>
+      Eshika Rani Pall
+    </a>
+    <nav class="nav-menu" id="navMenu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="assets/Eshika_Rani_Pall.pdf" download class="btn btn-outline btn-sm">Résumé</a>
+      <button id="menuBtn" aria-label="Toggle navigation" aria-expanded="false"><i class="bx bx-menu"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+
+      <div class="hero-copy">
+        <span class="badge">Available for internships</span>
+        <h1>Software Engineer,<br>focused on <span class="hl">full‑stack</span> web development.</h1>
+        <p class="hero-role"><span id="typing"></span><span class="caret">|</span></p>
+        <p class="hero-desc">
+          Computer Science undergraduate who builds enterprise-style
+          web applications with ASP.NET Core MVC and SQL Server, and converts
+          UI designs into responsive, REST-API-driven front-ends.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="assets/Eshika_Rani_Pall.pdf" download class="btn btn-outline">Download résumé</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/EEEshika" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/eshika-rani-pall-b3486b280/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bx bxl-linkedin-square"></i></a>
+          <a href="mailto:eshikarpall@gmail.com" aria-label="Email"><i class="bx bx-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap" data-reveal>
+        <div class="hero-photo">
+          <img src="images/profile.png" alt="Eshika Rani Pall">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <span class="eyebrow">About</span>
+      <h2 class="section-title" data-reveal>Full-stack minded, detail obsessed.</h2>
+
+      <div class="about-grid">
+        <p class="about-lead" data-reveal>
+          I'm a Computer Science & Engineering undergraduate at American International University-Bangladesh with an interest in building practical web applications from backend to frontend. I enjoy designing clean database structures, developing reliable application logic, and creating user interfaces that feel intuitive. I believe small details-like loading states, empty states, and thoughtful validation-are what turn a functional application into a polished user experience.
+        </p>
+        <div class="fact-list">
+          <div class="fact" data-reveal><span>Location</span><strong>Dhaka, Bangladesh</strong></div>
+          <div class="fact" data-reveal><span>Degree</span><strong>B.Sc. Computer Science &amp; Engineering</strong></div>
+          <div class="fact" data-reveal><span>CGPA</span><strong>3.79 / 4.00</strong></div>
+          <div class="fact" data-reveal><span>Focus</span><strong>ASP.NET Core · SQL Server · JavaScript</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section alt" id="skills">
+    <div class="wrap">
+      <span class="eyebrow">Skills</span>
+      <h2 class="section-title" data-reveal>Technical skills.</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class='bx bx-code-curly'></i></div>
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>C#</li><li>JavaScript</li><li>PHP</li><li>Java</li>
+            <li>Python</li><li>C</li><li>C++</li><li>R</li>
+          </ul>
         </div>
 
-        <div class="scroll-down">
-
-            <a href="#about">
-
-                <i class="ri-mouse-line"></i>
-
-            </a>
-
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class='bx bx-layer'></i></div>
+          <h3>Frameworks</h3>
+          <ul class="chips">
+            <li>ASP.NET Core MVC</li><li>.NET Framework</li>
+          </ul>
         </div>
 
-    </section>
-
-        <!-- ================= ABOUT ================= -->
-
-    <section class="about section" id="about">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>Get To Know Me</span>
-
-                <h2>About Me</h2>
-
-            </div>
-
-            <div class="about-container">
-
-                <div class="about-image reveal-left">
-
-                    <div class="about-img-card">
-
-                        <img src="images/profile.png" alt="Eshika Rani Pall">
-
-                    </div>
-
-                </div>
-
-                <div class="about-content reveal-right">
-
-                    <h3>Computer Science Undergraduate & Aspiring Software Engineer</h3>
-
-                    <p>
-
-                        I'm Eshika Rani Pall, a Computer Science & Engineering undergraduate at
-                        American International University-Bangladesh (AIUB).
-                        I enjoy building modern software solutions using ASP.NET Core MVC,
-                        C#, PHP, JavaScript and SQL databases.
-
-                    </p>
-
-                    <p>
-
-                        My focus is writing clean, scalable and maintainable code while
-                        continuously improving my problem solving skills. I enjoy learning new
-                        technologies and building projects that solve real-world problems.
-
-                    </p>
-
-                    <div class="about-info">
-
-                        <div class="info-box">
-
-                            <h4>Name</h4>
-
-                            <span>Eshika Rani Pall</span>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4>Email</h4>
-
-                            <span>eshikarpall@gmail.com</span>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4>Phone</h4>
-
-                            <span>+8801903322202</span>
-
-                        </div>
-
-                        <div class="info-box">
-
-                            <h4>Location</h4>
-
-                            <span>Dhaka, Bangladesh</span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class='bx bx-data'></i></div>
+          <h3>Databases</h3>
+          <ul class="chips">
+            <li>Microsoft SQL Server</li><li>MySQL</li><li>Oracle</li>
+          </ul>
         </div>
 
-    </section>
-
-    
-
-    <!-- ================= SKILLS ================= -->
-
-    <section class="skills section" id="skills">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>Professional Skills</span>
-
-                <h2>Technical Skills</h2>
-
-            </div>
-
-            <div class="skills-grid">
-
-                <div class="skill-card">
-
-                    <i class="ri-code-s-slash-line"></i>
-
-                    <h3>Languages</h3>
-
-                    <ul>
-
-                        <li>Java</li>
-
-                        <li>Python</li>
-
-                        <li>C</li>
-
-                        <li>C++</li>
-
-                        <li>C#</li>
-
-                        <li>PHP</li>
-
-                        <li>JavaScript</li>
-
-                        <li>R</li>
-
-                    </ul>
-
-                </div>
-
-                <div class="skill-card">
-
-                    <i class="ri-layout-4-line"></i>
-
-                    <h3>Frameworks</h3>
-
-                    <ul>
-
-                        <li>ASP.NET Core MVC</li>
-
-                        <li>.NET Framework</li>
-
-                        <li>Bootstrap</li>
-
-                        <li>MVC Architecture</li>
-
-                    </ul>
-
-                </div>
-
-                <div class="skill-card">
-
-                    <i class="ri-database-2-line"></i>
-
-                    <h3>Database</h3>
-
-                    <ul>
-
-                        <li>SQL Server</li>
-
-                        <li>MySQL</li>
-
-                        <li>Oracle Database</li>
-
-                    </ul>
-
-                </div>
-
-                <div class="skill-card">
-
-                    <i class="ri-tools-fill"></i>
-
-                    <h3>Tools</h3>
-
-                    <ul>
-
-                        <li>Git</li>
-
-                        <li>GitHub</li>
-
-                        <li>VS Code</li>
-
-                        <li>Visual Studio</li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class='bx bx-globe'></i></div>
+          <h3>Web</h3>
+          <ul class="chips">
+            <li>HTML5</li><li>CSS3</li><li>Bootstrap</li><li>Responsive Design</li>
+          </ul>
         </div>
 
-    </section>
-
-    <!-- ================= TECHNOLOGY STACK ================= -->
-
-    <section class="tech-stack section">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>Technology</span>
-
-                <h2>Tech Stack</h2>
-
-            </div>
-
-            <div class="tech-grid">
-
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>JavaScript</span>
-                <span>PHP</span>
-                <span>C#</span>
-                <span>ASP.NET</span>
-                <span>Bootstrap</span>
-                <span>MySQL</span>
-                <span>SQL Server</span>
-                <span>Oracle</span>
-                <span>Git</span>
-                <span>GitHub</span>
-
-            </div>
-
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class='bx bx-git-branch'></i></div>
+          <h3>Tooling</h3>
+          <ul class="chips">
+            <li>Git</li><li>GitHub</li>
+          </ul>
         </div>
 
-    </section>
-
-    <!-- ================= EDUCATION ================= -->
-
-    <section class="education section" id="education">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>Academic Journey</span>
-
-                <h2>Education</h2>
-
-            </div>
-
-            <div class="timeline">
-
-                <div class="timeline-item">
-
-                    <div class="timeline-dot"></div>
-
-                    <div class="timeline-content">
-
-                        <h3>B.Sc. in Computer Science & Engineering</h3>
-
-                        <h4>American International University Bangladesh</h4>
-
-                        <p>2022 – Present</p>
-
-                        <p>CGPA : 3.79</p>
-
-                    </div>
-
-                </div>
-
-                <div class="timeline-item">
-
-                    <div class="timeline-dot"></div>
-
-                    <div class="timeline-content">
-
-                        <h3>Higher Secondary Certificate</h3>
-
-                        <h4>Dr. Mahbubur Rahman Mollah College</h4>
-
-                        <p>GPA : 5.00</p>
-
-                    </div>
-
-                </div>
-
-                <div class="timeline-item">
-
-                    <div class="timeline-dot"></div>
-
-                    <div class="timeline-content">
-
-                        <h3>Secondary School Certificate</h3>
-
-                        <h4>Murapara Govt. Pilot High School</h4>
-
-                        <p>GPA : 5.00</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon"><i class='bx bx-bulb'></i></div>
+          <h3>Concepts</h3>
+          <ul class="chips">
+            <li>OOP</li><li>MVC Architecture</li><li>REST APIs</li>
+            <li>CRUD Operations</li><li>Database Design</li>
+          </ul>
         </div>
 
-    </section>
-
-        <!-- ================= PROJECTS ================= -->
-
-    <section class="projects section" id="projects">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>My Portfolio</span>
-
-                <h2>Featured Projects</h2>
-
-            </div>
-
-            <div class="projects-grid">
-
-                <!-- Project 1 -->
-
-                <div class="project-card">
-
-                    <div class="project-image">
-
-
-                    </div>
-
-                    <div class="project-content">
-
-                        <h3>Salon Management System</h3>
-
-                        <p>
-
-                            A complete ASP.NET Core MVC based salon management system with customer,
-                            appointment, service, payment and staff management.
-
-                        </p>
-
-                        <div class="project-tech">
-
-                            <span>ASP.NET Core</span>
-                            <span>C#</span>
-                            <span>SQL Server</span>
-
-                        </div>
-
-                        <div class="project-links">
-
-<a href="https://github.com/EEEshika/Salon-Management-System-ASP.NET-Core-MVC" target="_blank">
-                                <i class="ri-github-fill"></i>
-
-                                GitHub
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Project 2 -->
-
-                <div class="project-card">
-
-                    <div class="project-image">
-
-
-                    </div>
-
-                    <div class="project-content">
-
-                        <h3>StudyFlow</h3>
-
-                        <p>
-
-                            Student Productivity Management System with authentication,
-                            tasks, subjects, study sessions and dashboard analytics.
-
-                        </p>
-
-                        <div class="project-tech">
-
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>MVC</span>
-
-                        </div>
-
-                        <div class="project-links">
-
-<a href="https://github.com/EEEshika/StudyFlow" target="_blank">
-                                <i class="ri-github-fill"></i>
-
-                                GitHub
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Project 3 -->
-
-                <div class="project-card">
-
-                    <div class="project-image">
-
-
-                    </div>
-
-                    <div class="project-content">
-
-                        <h3>Pharmacy Management System</h3>
-
-                        <p>
-
-                            Windows Forms desktop application for inventory,
-                            medicines, customers, sales and pharmacist management.
-
-                        </p>
-
-                        <div class="project-tech">
-
-                            <span>C#</span>
-                            <span>.NET</span>
-                            <span>SQL Server</span>
-
-                        </div>
-
-                        <div class="project-links">
-
-<a href="https://github.com/EEEshika/Pharmacy_Management_System-Project" target="_blank">
-                                <i class="ri-github-fill"></i>
-
-                                GitHub
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Project 4 -->
-
-                <div class="project-card">
-
-                    <div class="project-image">
-
-
-                    </div>
-
-                    <div class="project-content">
-
-                        <h3>Online Quiz System</h3>
-
-                        <p>
-
-                            PHP & MySQL based role-based online quiz platform
-                            for teachers, students and administrators.
-
-                        </p>
-
-                        <div class="project-tech">
-
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>JavaScript</span>
-
-                        </div>
-
-                        <div class="project-links">
-
-<a href="https://github.com/EEEshika/Online_Quiz_System" target="_blank">
-                                <i class="ri-github-fill"></i>
-
-                                GitHub
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
+      </div>
+
+      <div class="learning-strip" data-reveal>
+        <i class='bx bx-trending-up'></i>
+        <span>Currently learning: <strong>React.js</strong> &amp; <strong>Tailwind CSS</strong></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="wrap">
+      <span class="eyebrow">Projects</span>
+      <h2 class="section-title" data-reveal>Selected work.</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card" data-reveal>
+          <div class="pc-tag">ASP.NET Core · C# · SQL Server</div>
+          <h3>Salon Management System</h3>
+          <p>Enterprise-style web application handling customer, appointment,
+          staff, service, and payment management for a multi-role user base.
+          Built on MVC architecture with Entity Framework Core and full CRUD
+          operations.</p>
+          <div class="pc-links">
+            <a href="https://github.com/EEEshika/Salon-Management-System-ASP.NET-Core-MVC" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+            <a href="http://salon-management.runasp.net/" target="_blank" rel="noopener"><i class='bx bx-link-external'></i> Live</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="pc-tag">PHP · MySQL · MVC</div>
+          <h3>StudyFlow</h3>
+          <p>Student productivity management system with secure,
+          session-based authentication and a responsive dashboard tracking
+          tasks, subjects, notes, and study sessions.</p>
+          <div class="pc-links">
+            <a href="https://github.com/EEEshika/StudyFlow" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+            <a href="https://studyflow-site.infinityfreeapp.com/StudyFlow/?i=1" target="_blank" rel="noopener"><i class='bx bx-link-external'></i> Live</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="pc-tag">Bootstrap 5 · JavaScript · REST API</div>
+          <h3>DevConf 2026</h3>
+          <p>Conference landing page converted from a Figma/Penpot design —
+          fully responsive, with a live countdown timer and a validated
+          registration modal wired to a REST API.</p>
+          <div class="pc-links">
+            <a href="https://github.com/EEEshika/DevConf2026" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+            <a href="https://eeeshika.github.io/DevConf2026/" target="_blank" rel="noopener"><i class='bx bx-link-external'></i> Live</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="pc-tag">Bootstrap 5 · JavaScript · REST API</div>
+          <h3>Forkful — Recipe Finder</h3>
+          <p>Recipe search app consuming a live public REST API — search,
+          filter, and detail-lookup endpoints — with localStorage favorites
+          and explicit loading, error, and empty states.</p>
+          <div class="pc-links">
+            <a href="https://github.com/EEEshika/Forkful-Recipe-Finder" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+            <a href="https://eeeshika.github.io/Forkful-Recipe-Finder/" target="_blank" rel="noopener"><i class='bx bx-link-external'></i> Live</a>
+          </div>
+        </article>
+
+      </div>
+
+      <span class="eyebrow eyebrow-sub">Additional projects</span>
+      <div class="project-grid project-grid-sm">
+
+        <article class="project-card project-card-sm" data-reveal>
+          <div class="pc-tag">C# · .NET Windows Forms · SQL Server</div>
+          <h3>Pharmacy Management System</h3>
+          <p>Desktop application (not web-based) for inventory, medicine
+          validity, and sales — OOP and event-driven design with ADO.NET.</p>
+          <div class="pc-links">
+            <a href="https://github.com/EEEshika/Pharmacy_Management_System-Project" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-sm" data-reveal>
+          <div class="pc-tag">PHP · MySQL · JavaScript</div>
+          <h3>Online Quiz System</h3>
+          <p>Role-based quiz platform for administrators, teachers, and
+          students, with automated result calculation and CRUD-based data
+          management.</p>
+          <div class="pc-links">
+            <a href="https://github.com/EEEshika/Online_Quiz_System" target="_blank" rel="noopener"><i class='bx bxl-github'></i> GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section alt" id="education">
+    <div class="wrap">
+      <span class="eyebrow">Education</span>
+      <h2 class="section-title" data-reveal>Foundation.</h2>
+
+      <div class="edu-panel" data-reveal>
+        <div class="edu-top">
+          <div>
+            <h3>American International University-Bangladesh</h3>
+            <p class="edu-degree">B.Sc. in Computer Science &amp; Engineering</p>
+          </div>
+          <div class="edu-meta">
+            <span>2022 — Present</span>
+            <span>Dhaka, Bangladesh</span>
+            <span class="edu-cgpa">CGPA 3.79</span>
+          </div>
+        </div>
+        <div class="edu-coursework">
+          <span>Relevant coursework:</span>
+          ASP.NET Core MVC · Data Structures · Algorithms · OOP · Database Management Systems
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h2 class="section-title" data-reveal>Let's work together.</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-reveal>
+          <a href="tel:+8801903322202" class="contact-row">
+            <i class='bx bx-phone'></i>
+            <div><span>Phone</span><strong>+8801903322202</strong></div>
+          </a>
+          <a href="mailto:eshikarpall@gmail.com" class="contact-row">
+            <i class='bx bx-envelope'></i>
+            <div><span>Email</span><strong>eshikarpall@gmail.com</strong></div>
+          </a>
+          <div class="contact-row">
+            <i class='bx bx-map'></i>
+            <div><span>Location</span><strong>Dhaka, Bangladesh</strong></div>
+          </div>
+          <a href="https://github.com/EEEshika" target="_blank" rel="noopener" class="contact-row">
+            <i class='bx bxl-github'></i>
+            <div><span>GitHub</span><strong>@EEEshika</strong></div>
+          </a>
+          <a href="https://www.linkedin.com/in/eshika-rani-pall-b3486b280/" target="_blank" rel="noopener" class="contact-row">
+            <i class='bx bxl-linkedin-square'></i>
+            <div><span>LinkedIn</span><strong>eshika-rani-pall</strong></div>
+          </a>
         </div>
 
-    </section>
-
-    <!-- ================= RESUME ================= -->
-
-    <section class="resume section">
-
-        <div class="container resume-box">
-
-            <h2>Interested in working together?</h2>
-
-            <p>
-
-                Download my resume and explore my projects to learn more
-                about my skills and experience.
-
-            </p>
-
-            <a href="assets/Eshika_Rani_Pall.pdf" download class="primary-btn">
-
-                Download Resume
-
-            </a>
-
-        </div>
-
-    </section>
-
-    <!-- ================= CONTACT ================= -->
-
-    <section class="contact section" id="contact">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>Let's Connect</span>
-
-                <h2>Contact Me</h2>
-
-            </div>
-
-            <div class="contact-container">
-
-                <div class="contact-info">
-
-                    <div class="contact-card">
-
-<i class="bx bx-phone"></i>
-                        <h3>Phone</h3>
-
-<a href="tel:+8801903322202">
-    +8801903322202
-</a>
-                    </div>
-
-                    <div class="contact-card">
-
-<i class="bx bx-envelope"></i>
-                        <h3>Email</h3>
-
-<a href="mailto:eshikarpall@gmail.com">
-    eshikarpall@gmail.com
-</a>
-                    </div>
-
-                    <div class="contact-card">
-
-<i class="bx bx-map"></i>
-                        <h3>Location</h3>
-
-                        <p>Dhaka, Bangladesh</p>
-
-                    </div>
-<menu></menu>
-                </div>
-
-<form
-action="https://formspree.io/f/xnjklgzv"
-method="POST"
-class="contact-form">
-
-    <input
-        type="text"
-        name="name"
-        placeholder="Your Name"
-        required>
-
-    <input
-        type="email"
-        name="email"
-        placeholder="Your Email"
-        required>
-
-    <input
-        type="text"
-        name="subject"
-        placeholder="Subject"
-        required>
-
-    <textarea
-        name="message"
-        rows="6"
-        placeholder="Your Message"
-        required></textarea>
-
-    <button
-        type="submit"
-        class="primary-btn">
-
-        Send Message
-
-    </button>
-
-</form>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <div class="container footer-container">
-
-            <h2>Eshika Rani Pall</h2>
-
-            
-
-            <div class="footer-social">
-
-                <a href="https://github.com/EEEshika">
-
-                    <i class="ri-github-fill"></i>
-
-                </a>
-
-                <a href="https://www.linkedin.com/in/eshika-rani-pall-b3486b280/">
-
-                    <i class="ri-linkedin-fill"></i>
-
-                </a>
-
-                <a href="mailto:eshikarpall@gmail.com">
-
-                    <i class="ri-mail-fill"></i>
-
-                </a>
-
-            </div>
-
-            <p class="copyright">
-
-                © 2026 Eshika Rani Pall. All Rights Reserved.
-
-            </p>
-
-        </div>
-
-    </footer>
-
-    <!-- Back To Top -->
-
-    <button id="backToTop">
-
-<i class="bx bx-up-arrow-alt"></i>
-    </button>
-
-    <!-- JavaScript -->
-
-    <script src="js/typing.js"></script>
-
-    <script src="js/animation.js"></script>
-
-    <script src="js/main.js"></script>
-
+        <form action="https://formspree.io/f/xnjklgzv" method="POST" class="contact-form" data-reveal>
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-wrap">
+    <span>© 2026 Eshika Rani Pall</span>
+    <span>Dhaka, Bangladesh</span>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class='bx bx-up-arrow-alt'></i></button>
+
+<script src="js/script.js"></script>
 </body>
-
 </html>
